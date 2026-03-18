@@ -7,7 +7,7 @@ Designed with a clean dark UI and smooth user experience.
 
 ## 🔗 Live Demo
 
-👉 https://tvojusername.github.io/image-carousel-pro/
+👉 https://johnyisbackk.github.io/js-image-carousel/
 
 --- 
 
