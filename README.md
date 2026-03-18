@@ -44,3 +44,8 @@ The carousel is built using a simple and scalable logic:
 - Thumbnails allow direct slide selection
 - Autoplay cycles through slides automatically
 
+---
+
+## 📬 Author
+
+Created by **JohnY**
