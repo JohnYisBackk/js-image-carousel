@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Image Carousel PRO</title>
+  </head>
+  <body>
+    <main class="carousel-page">
+      <section class="carousel-card">
+        <div class="carousel-header">
+          <div>
+            <p class="eyebrow">Gallery Showcase</p>
+            <h1>Image Carousel PRO</h1>
+          </div>
+
+          <div class="slide-counter" id="slideCounter">1 / 4</div>
+        </div>
+
+        <div class="main-image-wrapper">
+          <img
+            id="mainImage"
+            class="main-image"
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+            alt="Mountain Lake"
+          />
+        </div>
+
+        <div class="caption-box">
+          <h2 id="imageTitle">Mountain Lake</h2>
+          <p id="imageCaption">
+            A peaceful mountain lake with calm reflections and dramatic scenary.
+          </p>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="nav-btn" id="prevBtn">Previous</button>
+          <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+
+        <div class="thumbnail-row" id="thumbnailRow">
+          <button class="thumbnail active" data-index="0">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80"
+              alt="thumbnail 1"
+            />
+          </button>
+
+          <button class="thumbnail" data-index="1">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=300&q=80"
+              alt="Thumbnail 2"
+            />
+          </button>
+
+          <button class="thumbnail" data-index="2">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80"
+              alt="Thumbnail 3"
+            />
+          </button>
+
+          <button class="thumbnail" data-index="3">
+            <img
+              src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=300&q=80"
+              alt="Thumbnail 4"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
